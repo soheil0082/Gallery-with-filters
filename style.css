@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #f5f6fa;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+body {
+  background-color: #f5f6fa;
+}
+
+.header {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1rem;
+  justify-content: start;
+  padding: 20px;
+}
+
+.tag {
+  background-color: #dcdde1;
+  color: #353b48;
+  font-style: normal;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.--selected {
+  background-color: #00a8ff;
+  color: #f5f6fa;
+}
